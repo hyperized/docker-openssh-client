@@ -3,5 +3,3 @@ FROM alpine
 LABEL maintainer="Gerben Geijteman <gerben@hyperized.net>"
 
 RUN apk --no-cache add openssh-client bash
-
-ENTRYPOINT ["/bin/bash"]
